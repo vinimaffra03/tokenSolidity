@@ -21,3 +21,6 @@ contract MeuToken {
         return true;
     }
 }
+
+// forge token 
+// forge create --rpc-url https://rpc.ankr.com/polygon_amoy --private-key 63dc2a12c5f0125a1f9c06e0e591b5c113993c59228bfc2111967d5df3651ce1 src/MeuPrimeiroToken.sol:MeuToken --constructor-args 10000000

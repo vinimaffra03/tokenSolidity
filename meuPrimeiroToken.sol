@@ -5,7 +5,6 @@ contract MeuToken {
     string public name = "MyToken";
     string public symbol = "MTK";
 
-
     mapping (address => uint256) public balanceOf;
     event Transfer(address indexed from, address indexed to, uint256 value);
 
